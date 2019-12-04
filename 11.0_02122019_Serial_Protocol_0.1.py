@@ -85,7 +85,7 @@ print(returns)
 time.sleep(0.2) #not enough sleep to let client complete action
 
 #not enough time, no response in timeout=2 seconds => returns BSY and packet is discarded on client side
-print("Command: 0   Value: 7")
+print("Command: 0   Value: 7")#
 returns = sendPacket(0, 7)
 print(returns)
 time.sleep(5)
