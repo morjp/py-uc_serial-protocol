@@ -1,6 +1,6 @@
 #ATmega 328P Serial Protocol Host
 #Version 0.1
-#Compatible with client version 0.11
+#Compatible with client version 0.1
 #Created 02/12/2019 by Moritz Prenzlow <m.prenzlow@uni-koeln.de>
 #
 #This host application can send packets over the serial bus to be received from the ATmega 328P and waits for a response.
@@ -73,7 +73,7 @@ print(returns)
 time.sleep(5)
 
 #returns NACK, because minimum value for command 0 is 5
-print("Command: 0   Value: 4")
+print("Command: 0   Value: 4")#
 returns = sendPacket(0, 4)
 print(returns)
 time.sleep(5)
