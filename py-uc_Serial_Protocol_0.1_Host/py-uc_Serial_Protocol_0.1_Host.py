@@ -11,7 +11,7 @@
 #   Returns:       string response
 
 
-import serial, time, struct
+import serial, time, structs
 import warnings
 import serial.tools.list_ports
 
