@@ -1,7 +1,7 @@
 /*
 ATmega 328P Serial Protocol Client 
 Version 0.1
-Compatible with host version 0.1
+Compatible with host version 0.11
 Created 02/12/2019 by Moritz Prenzlow <m.prenzlow@uni-koeln.de>
 
 This client receives a serial packet from the host using the function receivePacket().
